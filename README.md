@@ -64,9 +64,10 @@ Man page
 <h1 align="center">reunitize</h1>
 
 <a href="#NAME">NAME</a><br>
+<a href="#SYNOPSIS">SYNOPSIS</a><br>
 <a href="#DESCRIPTION">DESCRIPTION</a><br>
+<a href="#OPTIONS">OPTIONS</a><br>
 <a href="#EXAMPLES">EXAMPLES</a><br>
-<a href="#FILES">FILES</a><br>
 <a href="#SEE ALSO">SEE ALSO</a><br>
 <a href="#BUGS">BUGS</a><br>
 <a href="#LICENSE">LICENSE</a><br>
@@ -80,8 +81,15 @@ Man page
 
 
 <p style="margin-left:11%; margin-top: 1em">reunitize
-&minus; !!SUMMARY!!.SH SYNOPSIS <b>reunitize
-!!USAGE!!</b></p>
+&minus; generate an Ipro lfp by reviewing images</p>
+
+<h2>SYNOPSIS
+<a name="SYNOPSIS"></a>
+</h2>
+
+
+<p style="margin-left:11%; margin-top: 1em"><b>reunitize
+PATH</b></p>
 
 <h2>DESCRIPTION
 <a name="DESCRIPTION"></a>
@@ -90,7 +98,17 @@ Man page
 
 
 <p style="margin-left:11%; margin-top: 1em"><b>reunitize</b>
-!!DESCRIPTION!!.SH OPTIONS</p>
+opens a directory or directories in <b>feh(1)</b> and
+generates an Ipro lfp based on the keystrokes it receives
+from the user.</p>
+
+<p style="margin-left:11%; margin-top: 1em">Nothing is
+implemented yet.</p>
+
+<h2>OPTIONS
+<a name="OPTIONS"></a>
+</h2>
+
 
 <p style="margin-left:11%; margin-top: 1em"><b>--help</b>
 Print a brief usage message.</p>
@@ -102,11 +120,6 @@ Print a brief usage message.</p>
 
 
 <p style="margin-left:11%; margin-top: 1em"><b>reunitize</b></p>
-
-<h2>FILES
-<a name="FILES"></a>
-</h2>
-
 
 <h2>SEE ALSO
 <a name="SEE ALSO"></a>
@@ -120,21 +133,20 @@ Print a brief usage message.</p>
        cellspacing="0" cellpadding="0">
 <tr valign="top" align="left">
 <td width="11%"></td>
-<td width="6%">
+<td width="9%">
 
+
+<p><b>feh(1)</b></p></td>
+<td width="80%">
+</td></tr>
+</table>
 
 <h2>BUGS
 <a name="BUGS"></a>
 </h2>
-</td>
-<td width="5%"></td>
-<td width="13%">
 
 
-<p style="margin-top: 1em">Probably.</p></td>
-<td width="65%">
-</td></tr>
-</table>
+<p style="margin-left:11%;">Probably.</p>
 
 <h2>LICENSE
 <a name="LICENSE"></a>
