@@ -7,6 +7,9 @@ end
 ##
 # Represent the current X display
 class Screen
+  LETTER_W = 8.5
+  LETTER_H = 11
+  LETTER_RATIO = LETTER_W / LETTER_H
   attr_reader :dimension
 
   ##
@@ -19,5 +22,14 @@ class Screen
     xrandr_re =~ @xrandr
     [:x, :y].each{|dim| @dimension[dim] = $~[dim].to_i }
   end
+
+  def letter_size
+    {
+      :y => @dimension[:y].to_i,
+      :x => (@dimension[:y] * LETTER_RATIO).to_i
+    }
+  end
+
+
 
 end

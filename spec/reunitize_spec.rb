@@ -16,4 +16,11 @@ describe Screen do
     @s.dimension[:x].is_a?(Integer).should be_true
     @s.dimension[:y].is_a?(Integer).should be_true
   end
+
+  it 'has a letter size' do
+    @s.letter_size[:x].is_a?(Integer).should be_true
+    @s.letter_size[:y].is_a?(Integer).should be_true
+    @s.letter_size[:x].should be < @s.letter_size[:y]
+  end
+    
 end
