@@ -3,6 +3,8 @@ reunitize
 interactively review image files
 and generate an Ipro® lfp or Concordance® opt file.
 
+This doesn't do anything as of yet.
+
 Installation
 ---------
 `gem install reunitize`
