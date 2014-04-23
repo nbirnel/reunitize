@@ -155,8 +155,8 @@ Print a brief usage message.</p>
 
 <p style="margin-left:11%; margin-top: 1em">Copyright Noah
 Birnel</p>
- 
-<p style="margin-left:11%; margin-top: 1em">MIT</p>
+
+<p style="margin-left:11%; margin-top: 1em">MIT License</p>
 <hr>
 </body>
 </html>
